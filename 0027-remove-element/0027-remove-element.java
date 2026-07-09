@@ -1,5 +1,8 @@
 class Solution {
     public int removeElement(int[] nums, int val) {
+        if (nums == null) {
+            throw new IllegalArgumentException("nums must not be null");
+        }
         int n = nums.length;
         int k=0;
         for(int i =0 ; i<n ; i++){

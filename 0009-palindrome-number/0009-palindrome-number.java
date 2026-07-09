@@ -4,7 +4,7 @@ class Solution {
         return false;
       }
       int fin=x;
-      int n=0;
+      long n=0;
       while(x>0){
         int pal=x%10;
         x = x/10;
